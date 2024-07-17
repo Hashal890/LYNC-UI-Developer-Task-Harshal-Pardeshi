@@ -1,12 +1,16 @@
 import React from "react";
 import { Box } from "@chakra-ui/react";
+import Navbar from "./components/navbar/Navbar";
 
 const App = () => {
   return (
     <Box
-      bgGradient={"linear-gradient(to right, #4776e6, #8e54e9)"}
+      bg={"linear-gradient(to right, #417aff, #6404ff)"}
       color={"white"}
-    ></Box>
+      h={"100vh"}
+    >
+      <Navbar />
+    </Box>
   );
 };
 
