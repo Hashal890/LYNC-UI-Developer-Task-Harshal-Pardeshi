@@ -19,7 +19,7 @@ const Navbar = () => {
 
   const display = useBreakpointValue({ base: "none", md: "flex" });
   const mobileDisplay = useBreakpointValue({ base: "flex", md: "none" });
-  const fontSize = useBreakpointValue({ base: "14px", md: "18px" });
+  const fontSize = useBreakpointValue({ base: "14px", lg: "18px" });
   //   const padding = useBreakpointValue({ base: "8px", md: "16px" });
 
   return (
@@ -31,7 +31,7 @@ const Navbar = () => {
         borderRadius={"3rem"}
         backdropFilter={"blur(25px)"}
         p={3}
-        px={2}
+        px={6}
         w={"90%"}
         bg={
           "linear-gradient(to right, hsla(0, 0%, 85%, 0.07), hsla(0, 0%, 85%, 0.05))"
@@ -68,17 +68,20 @@ const Navbar = () => {
             alignItems={"center"}
             spacing={4}
           >
-            <Text fontWeight={600} fontSize={fontSize} cursor={"pointer"}>
+            <Text fontWeight={500} fontSize={fontSize} cursor={"pointer"}>
               Home
             </Text>
-            <Text fontWeight={600} fontSize={fontSize} cursor={"pointer"}>
+            <Text fontWeight={500} fontSize={fontSize} cursor={"pointer"}>
               Documentation
             </Text>
-            <Text fontWeight={600} fontSize={fontSize} cursor={"pointer"}>
+            <Text fontWeight={500} fontSize={fontSize} cursor={"pointer"}>
               Blogs
             </Text>
+            <Text fontWeight={500} fontSize={fontSize} cursor={"pointer"}>
+              LYNC Portal
+            </Text>
             <Text
-              fontWeight={600}
+              fontWeight={500}
               fontSize={fontSize}
               cursor={"pointer"}
               borderRadius={"2rem"}
@@ -110,17 +113,20 @@ const Navbar = () => {
         </Flex>
         {isOpen && (
           <VStack display={mobileDisplay} spacing={4} mt={4}>
-            <Text fontWeight={600} fontSize={fontSize} cursor={"pointer"}>
+            <Text fontWeight={500} fontSize={fontSize} cursor={"pointer"}>
               Home
             </Text>
-            <Text fontWeight={600} fontSize={fontSize} cursor={"pointer"}>
+            <Text fontWeight={500} fontSize={fontSize} cursor={"pointer"}>
               Documentation
             </Text>
-            <Text fontWeight={600} fontSize={fontSize} cursor={"pointer"}>
+            <Text fontWeight={500} fontSize={fontSize} cursor={"pointer"}>
               Blogs
             </Text>
+            <Text fontWeight={500} fontSize={fontSize} cursor={"pointer"}>
+              LYNC Portal
+            </Text>
             <Text
-              fontWeight={600}
+              fontWeight={500}
               fontSize={fontSize}
               cursor={"pointer"}
               borderRadius={"2rem"}
