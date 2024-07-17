@@ -24,9 +24,10 @@ const HomeDisplay = () => {
       >
         Launch Your Game on{" "}
         <Box
-          as="span"
-          bgGradient="linear(94.68deg, #FF0276 2.51%, #7209B7 56.42%)"
-          bgClip="text"
+          as={"span"}
+          bgGradient={"linear(94.68deg, #FF0276 2.51%, #7209B7 56.42%)"}
+          bgClip={"text"}
+          fontWeight={800}
         >
           Web 3.0
         </Box>{" "}
