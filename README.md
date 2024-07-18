@@ -1,10 +1,5 @@
 # LYNC UI Developer Task Harshal Pardeshi
 
-## Features:
-
-- Front-End
-- Back-End
-
 ## Getting Started
 
 **First, clone the repository:**
