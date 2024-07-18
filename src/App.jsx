@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 import HomeDisplay from "./components/display/HomeDisplay";
 import InfoAboutLync from "./components/info-about-lync/InfoAboutLync";
 import PowerupWeb3 from "./components/powerup/PowerupWeb3";
+import GrowthAndStats from "./components/growth-stats/GrowthAndStats";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <HomeDisplay />
       <InfoAboutLync />
       <PowerupWeb3 />
+      <GrowthAndStats />
     </Box>
   );
 };
