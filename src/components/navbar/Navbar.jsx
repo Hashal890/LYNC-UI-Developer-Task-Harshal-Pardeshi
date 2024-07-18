@@ -102,7 +102,7 @@ const Navbar = () => {
             rightIcon={<FaArrowRight />}
             color={"black"}
             bg={"white"}
-            _hover={{ bg: "white", color: "white" }}
+            _hover={{ bg: "white", color: "black" }}
             borderRadius={"2rem"}
             py={2}
             px={4}

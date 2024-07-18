@@ -13,6 +13,7 @@ const ProductCard = () => {
       h={"404px"}
       w={"304px"}
       cursor={"pointer"}
+      border={"1px solid grey"}
     >
       <Image src={ProductCardImage} alt={"product-card-img"} />
       <Text color={"rgba(255, 255, 255, 1)"} mt={4} fontSize={"24px"}>

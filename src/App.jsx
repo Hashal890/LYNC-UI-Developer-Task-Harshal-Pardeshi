@@ -9,11 +9,12 @@ import ProductSuite from "./components/product-suite/ProductSuite";
 import BuiltCompanyChain from "./components/company-chain/BuiltCompanyChain";
 import TelegramConnect from "./components/telegram-connect/TelegramConnect";
 import Partners from "./components/partners/Partners";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
     <Box
-      bg={"linear-gradient(to right, #417aff, #6404ff)"}
+      bg={"rgba(2, 6, 23, 1)"}
       color={"white"}
       fontFamily={"Sofia Sans Semi Condensed, sans-serif"}
       p={2}
@@ -27,6 +28,7 @@ const App = () => {
       <BuiltCompanyChain />
       <TelegramConnect />
       <Partners />
+      <Footer />
     </Box>
   );
 };

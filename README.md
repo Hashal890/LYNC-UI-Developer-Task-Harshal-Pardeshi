@@ -54,8 +54,8 @@ bun dev
 
 **Image Preview:**
 
-![home](./src/assets/)
+![home](./src/assets/gif-preview.gif)
 
 **Video Overview:**
 
-[View Video]()
+[View Video](https://drive.google.com/file/d/1017pAmgPnmBZ0BtUnzpNow9u2zDc3ZVc/view?usp=sharing)
