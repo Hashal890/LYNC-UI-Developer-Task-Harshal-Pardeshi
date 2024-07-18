@@ -6,10 +6,10 @@ import Statistics from "./Statistics";
 const GrowthAndStats = () => {
   return (
     <Flex
-      flexDir={["column", "column", "row"]}
+      flexDir={["column", "column", "column", "row"]}
       maxW={"1200px"}
       m={"auto"}
-      mt={8}
+      mt={24}
       gap={4}
     >
       <GameCard />

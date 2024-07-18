@@ -5,6 +5,7 @@ import HomeDisplay from "./components/display/HomeDisplay";
 import InfoAboutLync from "./components/info-about-lync/InfoAboutLync";
 import PowerupWeb3 from "./components/powerup/PowerupWeb3";
 import GrowthAndStats from "./components/growth-stats/GrowthAndStats";
+import ProductSuite from "./components/product-suite/ProductSuite";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <InfoAboutLync />
       <PowerupWeb3 />
       <GrowthAndStats />
+      <ProductSuite />
     </Box>
   );
 };
