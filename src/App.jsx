@@ -7,6 +7,7 @@ import PowerupWeb3 from "./components/powerup/PowerupWeb3";
 import GrowthAndStats from "./components/growth-stats/GrowthAndStats";
 import ProductSuite from "./components/product-suite/ProductSuite";
 import BuiltCompanyChain from "./components/company-chain/BuiltCompanyChain";
+import TelegramConnect from "./components/telegram-connect/TelegramConnect";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <GrowthAndStats />
       <ProductSuite />
       <BuiltCompanyChain />
+      <TelegramConnect />
     </Box>
   );
 };
