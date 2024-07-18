@@ -6,6 +6,7 @@ import InfoAboutLync from "./components/info-about-lync/InfoAboutLync";
 import PowerupWeb3 from "./components/powerup/PowerupWeb3";
 import GrowthAndStats from "./components/growth-stats/GrowthAndStats";
 import ProductSuite from "./components/product-suite/ProductSuite";
+import BuiltCompanyChain from "./components/company-chain/BuiltCompanyChain";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <PowerupWeb3 />
       <GrowthAndStats />
       <ProductSuite />
+      <BuiltCompanyChain />
     </Box>
   );
 };
