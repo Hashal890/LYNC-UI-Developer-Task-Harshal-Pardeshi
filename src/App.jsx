@@ -8,6 +8,7 @@ import GrowthAndStats from "./components/growth-stats/GrowthAndStats";
 import ProductSuite from "./components/product-suite/ProductSuite";
 import BuiltCompanyChain from "./components/company-chain/BuiltCompanyChain";
 import TelegramConnect from "./components/telegram-connect/TelegramConnect";
+import Partners from "./components/partners/Partners";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
       <ProductSuite />
       <BuiltCompanyChain />
       <TelegramConnect />
+      <Partners />
     </Box>
   );
 };

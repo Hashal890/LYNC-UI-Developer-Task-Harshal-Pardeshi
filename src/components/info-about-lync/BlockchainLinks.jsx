@@ -1,10 +1,10 @@
 import React from "react";
 import { Box, Flex, Image, Text } from "@chakra-ui/react";
-import ZoraVerseLogo from "../../assets/zora-verse-logo.png";
-import BornOrDieLogo from "../../assets/born-or-die-logo.png";
-import SOMWebsiteLogo from "../../assets/som-website-logo.png";
-import LumosLogo from "../../assets/lumos-logo.png";
-import VRCompanyLogo from "../../assets/vr-company-logo.png";
+import ZoraVerseLogo from "../../assets/info-about-lync/zora-verse-logo.png";
+import BornOrDieLogo from "../../assets/info-about-lync/born-or-die-logo.png";
+import SOMWebsiteLogo from "../../assets/info-about-lync/som-website-logo.png";
+import LumosLogo from "../../assets/info-about-lync/lumos-logo.png";
+import VRCompanyLogo from "../../assets/info-about-lync/vr-company-logo.png";
 
 const BlockchainLinks = () => {
   return (

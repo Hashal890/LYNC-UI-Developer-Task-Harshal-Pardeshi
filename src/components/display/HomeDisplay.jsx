@@ -1,9 +1,9 @@
 import React from "react";
 import { VStack, Text, Box, Image } from "@chakra-ui/react";
 import HomeButtons from "./HomeButtons";
-import DisplayDivBg from "../../assets/display-div-bg.png";
-import DisplayBackedByOutline from "../../assets/display-backed-by-outline.png";
-import DisplayBackedByLogos from "../../assets/display-backed-by.png";
+import DisplayDivBg from "../../assets/display/display-div-bg.png";
+import DisplayBackedByOutline from "../../assets/display/display-backed-by-outline.png";
+import DisplayBackedByLogos from "../../assets/display/display-backed-by.png";
 
 const HomeDisplay = () => {
   return (

@@ -1,13 +1,13 @@
 import React from "react";
 import { Box, Flex, Heading, Image } from "@chakra-ui/react";
-import EthereumLogo from "../../assets/ethereum-logo.png";
-import PolygonLogo from "../../assets/polygon-logo.png";
-import AptosLogo from "../../assets/aptos-logo.png";
-import ZkSyncLogo from "../../assets/zksync-logo.png";
-import ShardeumLogo from "../../assets/shardeum-logo.png";
-import AstarLogo from "../../assets/astar-logo.png";
-import SagaLogo from "../../assets/saga-logo.png";
-import AvalancheLogo from "../../assets/avalanche-logo.png";
+import EthereumLogo from "../../assets/company-chain/ethereum-logo.png";
+import PolygonLogo from "../../assets/company-chain/polygon-logo.png";
+import AptosLogo from "../../assets/company-chain/aptos-logo.png";
+import ZkSyncLogo from "../../assets/company-chain/zksync-logo.png";
+import ShardeumLogo from "../../assets/company-chain/shardeum-logo.png";
+import AstarLogo from "../../assets/company-chain/astar-logo.png";
+import SagaLogo from "../../assets/company-chain/saga-logo.png";
+import AvalancheLogo from "../../assets/company-chain/avalanche-logo.png";
 
 const BuiltCompanyChain = () => {
   return (

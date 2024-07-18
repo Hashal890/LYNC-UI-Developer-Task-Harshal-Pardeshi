@@ -11,7 +11,7 @@ import {
   useBreakpointValue,
 } from "@chakra-ui/react";
 import { FaArrowRight, FaBars, FaTimes } from "react-icons/fa";
-import NavbarLogo from "../../assets/navbar-logo.png";
+import NavbarLogo from "../../assets/navbar-footer/navbar-logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

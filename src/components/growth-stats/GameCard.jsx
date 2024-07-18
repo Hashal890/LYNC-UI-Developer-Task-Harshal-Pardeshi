@@ -1,8 +1,8 @@
 import React from "react";
 import { Box, Button, Flex, Image, Text } from "@chakra-ui/react";
 import { FaArrowRightLong } from "react-icons/fa6";
-import GameCardBg from "../../assets/game-card-bg.png";
-import GameRemote from "../../assets/game-remote.png";
+import GameCardBg from "../../assets/growth-stats/game-card-bg.png";
+import GameRemote from "../../assets/growth-stats/game-remote.png";
 
 const GameCard = () => {
   return (

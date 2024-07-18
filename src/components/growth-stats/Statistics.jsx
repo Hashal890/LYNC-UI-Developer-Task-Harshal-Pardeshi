@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Flex, Heading, Image, Text, VStack } from "@chakra-ui/react";
-import GameStatistics from "../../assets/game-statistics.png";
+import GameStatistics from "../../assets/growth-stats/game-statistics.png";
 
 const Statistics = () => {
   return (
